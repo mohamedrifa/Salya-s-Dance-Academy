@@ -13,7 +13,7 @@ class AppUpdateService {
 
   /// Primary Firebase RTDB REST endpoint
   static const String _rtdbRestUrl =
-      'https://bharath-academy-1a1ce-default-rtdb.firebaseio.com/Shrinrityalaya.json';
+      'https://bharath-academy-1a1ce-default-rtdb.firebaseio.com/SalyasAcademy.json';
 
   StreamSubscription<DatabaseEvent>? _realtimeSubscription;
   Timer? _activePollingTimer;

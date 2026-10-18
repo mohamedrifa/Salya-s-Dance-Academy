@@ -1,4 +1,4 @@
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
 import 'package:flutter/material.dart';
 import '../../theme/app_dimensions.dart';
 

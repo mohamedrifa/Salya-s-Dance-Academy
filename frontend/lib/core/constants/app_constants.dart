@@ -1,5 +1,5 @@
 class AppConstants {
-  static const String appName = 'Shri Nrityalaya';
+  static const String appName = 'Salya\'s Academy';
   static const String tokenKey = 'jwt_token';
   static const String userRoleKey = 'user_role';
   static const String userIdKey = 'user_id';

@@ -1,13 +1,13 @@
-import 'package:shri_nrityalaya_app/core/widgets/app_scaffold.dart';
+import 'package:salyas_academy/core/widgets/app_scaffold.dart';
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:dio/dio.dart';
 import 'package:go_router/go_router.dart';
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
-import 'package:shri_nrityalaya_app/features/fees/domain/models/monthly_fee_obligation.dart';
-import 'package:shri_nrityalaya_app/features/fees/presentation/providers/fee_obligations_providers.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
+import 'package:salyas_academy/features/fees/domain/models/monthly_fee_obligation.dart';
+import 'package:salyas_academy/features/fees/presentation/providers/fee_obligations_providers.dart';
 import '../../../../core/network/api_client.dart';
 
 class PaymentSubmissionScreen extends ConsumerStatefulWidget {

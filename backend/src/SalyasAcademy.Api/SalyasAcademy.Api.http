@@ -1,0 +1,6 @@
+@SalyasAcademy.Api_HostAddress = http://localhost:5117
+
+GET {{SalyasAcademy.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

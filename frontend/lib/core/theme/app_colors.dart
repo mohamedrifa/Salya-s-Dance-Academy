@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Centralized Application Color Palette for Shri Nrityalaya Academy.
+/// Centralized Application Color Palette for Salya's Academy.
 ///
 /// Modify colors here to change the entire app's visual theme from a single place.
 /// Every color in the application is strictly defined and documented in this class.

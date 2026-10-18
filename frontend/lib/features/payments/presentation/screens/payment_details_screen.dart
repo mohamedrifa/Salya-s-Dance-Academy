@@ -1,11 +1,11 @@
-import 'package:shri_nrityalaya_app/shared/widgets/error_view.dart';
-import 'package:shri_nrityalaya_app/core/widgets/app_scaffold.dart';
+import 'package:salyas_academy/shared/widgets/error_view.dart';
+import 'package:salyas_academy/core/widgets/app_scaffold.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:shri_nrityalaya_app/core/network/api_client.dart';
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
-import 'package:shri_nrityalaya_app/features/fees/domain/models/monthly_fee_obligation.dart';
+import 'package:salyas_academy/core/network/api_client.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
+import 'package:salyas_academy/features/fees/domain/models/monthly_fee_obligation.dart';
 
 class PaymentDetailsScreen extends ConsumerStatefulWidget {
   final MonthlyFeeObligation obligation;

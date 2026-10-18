@@ -1,4 +1,4 @@
-# shri_nrityalaya_app
+# salyas_academy
 
 A new Flutter project.
 

@@ -1,13 +1,13 @@
 import '../../../../core/utils/app_error_handler.dart';
-import 'package:shri_nrityalaya_app/core/widgets/app_scaffold.dart';
+import 'package:salyas_academy/core/widgets/app_scaffold.dart';
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:video_player/video_player.dart';
 import 'package:chewie/chewie.dart';
-import 'package:shri_nrityalaya_app/core/network/api_client.dart' as shri_nrityalaya_app_dio;
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
-import 'package:shri_nrityalaya_app/features/learning/domain/models/lesson.dart';
+import 'package:salyas_academy/core/network/api_client.dart' as salyas_academy_dio;
+import 'package:salyas_academy/core/theme/app_colors.dart';
+import 'package:salyas_academy/features/learning/domain/models/lesson.dart';
 
 class LessonPlayerScreen extends ConsumerStatefulWidget {
   final Lesson lesson;
@@ -36,7 +36,7 @@ class _LessonPlayerScreenState extends ConsumerState<LessonPlayerScreen> {
         return;
       }
       
-      final baseUrl = ref.read(shri_nrityalaya_app_dio.dioProvider).options.baseUrl.replaceAll('/api/v1', '');
+      final baseUrl = ref.read(salyas_academy_dio.dioProvider).options.baseUrl.replaceAll('/api/v1', '');
       final fullUrl = baseUrl + widget.lesson.videoUrl!;
 
       _videoPlayerController = VideoPlayerController.networkUrl(Uri.parse(fullUrl));
@@ -80,7 +80,7 @@ class _LessonPlayerScreenState extends ConsumerState<LessonPlayerScreen> {
     final isFullyWatched = pos >= duration - 2; // close enough to the end
 
     try {
-      await ref.read(shri_nrityalaya_app_dio.dioProvider).post(
+      await ref.read(salyas_academy_dio.dioProvider).post(
         '/lessons/${widget.lesson.id}/progress',
         data: {
           'isFullyWatched': isFullyWatched,

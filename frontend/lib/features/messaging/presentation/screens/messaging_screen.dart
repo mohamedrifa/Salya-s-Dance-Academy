@@ -1,16 +1,16 @@
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
 import '../../../../shared/widgets/error_view.dart';
 import '../../../../core/utils/app_error_handler.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:shri_nrityalaya_app/core/widgets/app_scaffold.dart';
-import '../../../../core/network/api_client.dart' as shri_nrityalaya_app_dio;
+import 'package:salyas_academy/core/widgets/app_scaffold.dart';
+import '../../../../core/network/api_client.dart' as salyas_academy_dio;
 import '../../../auth/presentation/providers/auth_providers.dart'
-    as shri_nrityalaya_app_auth;
+    as salyas_academy_auth;
 
 final announcementsProvider = FutureProvider<List<dynamic>>((ref) async {
-  final dio = ref.read(shri_nrityalaya_app_dio.dioProvider);
+  final dio = ref.read(salyas_academy_dio.dioProvider);
   final response = await dio.get('/announcements');
   return response.data['data'];
 });
@@ -56,7 +56,7 @@ class _MessagingScreenState extends ConsumerState<MessagingScreen> {
   @override
   Widget build(BuildContext context) {
     final announcementsState = ref.watch(announcementsProvider);
-    final userRole = ref.watch(shri_nrityalaya_app_auth.authProvider).userRole;
+    final userRole = ref.watch(salyas_academy_auth.authProvider).userRole;
     final isTeacherOrAdmin =
         userRole == 'Teacher' || userRole == 'SystemAdmin';
 
@@ -492,7 +492,7 @@ class _CreateAnnouncementSheetState
 
     setState(() => _isLoading = true);
     try {
-      final dio = ref.read(shri_nrityalaya_app_dio.dioProvider);
+      final dio = ref.read(salyas_academy_dio.dioProvider);
       await dio.post('/announcements', data: {
         'title': _titleCtrl.text.trim(),
         'content': _contentCtrl.text.trim(),

@@ -9,7 +9,7 @@ class AppVersionConstants {
   static const String appVersionName = '1.0.0';
 
   /// Root node key in Firebase Realtime Database.
-  static const String firebaseNode = 'Shrinrityalaya';
+  static const String firebaseNode = 'SalyasAcademy';
 
   /// Keys in the Firebase Realtime Database object
   static const String keyAppVersion = 'AppVersion';

@@ -1,15 +1,15 @@
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
 import '../../../../shared/widgets/error_view.dart';
 import '../../../../core/utils/app_error_handler.dart';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:shri_nrityalaya_app/core/widgets/app_scaffold.dart';
-import 'package:shri_nrityalaya_app/features/progress/domain/models/skill_assessment.dart';
-import 'package:shri_nrityalaya_app/features/students/domain/models/student.dart';
-import 'package:shri_nrityalaya_app/features/students/presentation/providers/student_providers.dart';
-import 'package:shri_nrityalaya_app/features/auth/presentation/providers/auth_providers.dart'
+import 'package:salyas_academy/core/widgets/app_scaffold.dart';
+import 'package:salyas_academy/features/progress/domain/models/skill_assessment.dart';
+import 'package:salyas_academy/features/students/domain/models/student.dart';
+import 'package:salyas_academy/features/students/presentation/providers/student_providers.dart';
+import 'package:salyas_academy/features/auth/presentation/providers/auth_providers.dart'
     as auth;
 import '../providers/progress_providers.dart';
 

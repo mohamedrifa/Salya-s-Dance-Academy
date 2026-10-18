@@ -1,4 +1,4 @@
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
 import 'dart:math' as math;
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
@@ -247,9 +247,9 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                             ),
                             const SizedBox(height: 14),
 
-                            // Title: ShriNrityalaya
+                            // Title: Salya's Academy
                             const Text(
-                              'ShriNrityalaya',
+                              'Salya\'s Academy',
                               textAlign: TextAlign.center,
                               style: TextStyle(
                                 fontFamily: 'Georgia',

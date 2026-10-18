@@ -1,9 +1,9 @@
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:shri_nrityalaya_app/core/widgets/app_scaffold.dart';
+import 'package:salyas_academy/core/widgets/app_scaffold.dart';
 import '../../../../core/network/api_client.dart';
 import '../../../../core/widgets/app_bottom_nav.dart';
 import '../../../../core/widgets/app_drawer.dart';

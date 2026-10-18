@@ -3,8 +3,8 @@ import '../../../../core/utils/app_error_handler.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
-import 'package:shri_nrityalaya_app/core/widgets/app_scaffold.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
+import 'package:salyas_academy/core/widgets/app_scaffold.dart';
 import '../../../directory/presentation/providers/directory_providers.dart';
 import '../providers/student_providers.dart';
 

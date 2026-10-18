@@ -2,10 +2,10 @@ import '../../../../shared/widgets/error_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-import 'package:shri_nrityalaya_app/core/network/api_client.dart';
-import 'package:shri_nrityalaya_app/core/theme/app_colors.dart';
-import 'package:shri_nrityalaya_app/core/widgets/app_scaffold.dart';
-import 'package:shri_nrityalaya_app/features/auth/presentation/providers/auth_providers.dart';
+import 'package:salyas_academy/core/network/api_client.dart';
+import 'package:salyas_academy/core/theme/app_colors.dart';
+import 'package:salyas_academy/core/widgets/app_scaffold.dart';
+import 'package:salyas_academy/features/auth/presentation/providers/auth_providers.dart';
 import '../providers/fee_obligations_providers.dart';
 import '../providers/fee_plans_providers.dart';
 

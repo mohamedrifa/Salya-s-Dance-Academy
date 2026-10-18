@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_riverpod/legacy.dart';
-import 'package:shri_nrityalaya_app/core/network/api_client.dart';
-import 'package:shri_nrityalaya_app/features/events/data/event_repository.dart';
-import 'package:shri_nrityalaya_app/features/events/domain/models/academy_event.dart';
+import 'package:salyas_academy/core/network/api_client.dart';
+import 'package:salyas_academy/features/events/data/event_repository.dart';
+import 'package:salyas_academy/features/events/domain/models/academy_event.dart';
 
 final eventRepositoryProvider = Provider<EventRepository>((ref) {
   return EventRepository(ref.watch(dioProvider));

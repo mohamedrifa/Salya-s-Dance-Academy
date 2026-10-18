@@ -213,8 +213,8 @@ class AppUpdateDialog extends StatelessWidget {
               // 4. Subtitle Description
               Text(
                 isMandatory
-                    ? 'A required update of Shri Nrityalaya is available. You must update to the latest version to continue.'
-                    : 'A new version of Shri Nrityalaya is ready with the latest features, improvements, and performance enhancements.',
+                    ? "A required update of Salya's Academy is available. You must update to the latest version to continue."
+                    : "A new version of Salya's Academy is ready with the latest features, improvements, and performance enhancements.",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 13,

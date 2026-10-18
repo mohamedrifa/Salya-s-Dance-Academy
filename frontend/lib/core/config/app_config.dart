@@ -2,7 +2,7 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'environment.dart';
 
 class AppConfig {
-  static const String appName = 'Shri Nrityalaya';
+  static const String appName = 'Salya\'s Academy';
   static const String appSubtitle = 'Academy Management System';
   static const String appVersion = '1.0.0+1';
 

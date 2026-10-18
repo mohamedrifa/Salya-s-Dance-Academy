@@ -1,4 +1,4 @@
-# Shri Nrityalaya Academy — Centralized Color System
+# Salya's Academy — Centralized Color System
 
 > **Single Source of Truth**: All colors across the entire application are defined and maintained exclusively in [`lib/core/theme/app_colors.dart`](lib/core/theme/app_colors.dart).  
 > **Zero Inline Colors**: No screen, widget, or component contains hardcoded `Color(0x...)` values. Changing any color in `AppColors` instantly updates the entire app end-to-end.
